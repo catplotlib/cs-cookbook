@@ -1,0 +1,19 @@
+ <svg className={className} viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="200" height="200" rx="20" fill="#FFF7ED" />
+    <path d="M40 40 H160 V160 H40 Z" fill="#FBBF24" />
+    <path d="M50 50 H150 V150 H50 Z" fill="#FFF7ED" />
+    <path d="M60 60 H140 V140 H60 Z" fill="#F59E0B" />
+    
+    {/* Binary representation */}
+    <text x="70" y="80" fontFamily="monospace" fontSize="14" fill="#7C2D12">10101</text>
+    <text x="70" y="100" fontFamily="monospace" fontSize="14" fill="#7C2D12">01010</text>
+    <text x="70" y="120" fontFamily="monospace" fontSize="14" fill="#7C2D12">11001</text>
+    
+    {/* Chef's hat */}
+    <path d="M100 20 Q80 20 80 40 Q80 60 100 60 Q120 60 120 40 Q120 20 100 20 Z" fill="#DC2626" />
+    <rect x="80" y="55" width="40" height="10" fill="#DC2626" rx="5" />
+    
+    {/* Spoon */}
+    <path d="M150 130 Q170 130 170 150 Q170 170 150 170 Q130 170 130 150 Z" fill="#7C2D12" />
+    <rect x="145" y="100" width="10" height="40" fill="#7C2D12" rx="5" />
+  </svg>
