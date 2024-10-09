@@ -8,6 +8,9 @@ import recipes from "./data/recipes";
 const App = () => {
   const [selectedRecipe, setSelectedRecipe] = useState(null);
 
+  // Create a reversed copy of the recipes array
+  const reversedRecipes = [...recipes].reverse();
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-100 via-orange-200 to-red-200 py-12 px-4 sm:px-6 lg:px-8 relative">
       {/* Overlay pattern */}
@@ -50,7 +53,7 @@ const App = () => {
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.3 }}
               >
-                {recipes.map((recipe, index) => (
+                {reversedRecipes.map((recipe, index) => (
                   <RecipeCard
                     key={index}
                     recipe={recipe}

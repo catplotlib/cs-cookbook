@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const MergeSortHeader = () => (
   <svg viewBox="0 0 800 400" className="w-full h-auto">
@@ -93,3 +93,33 @@ export const BinarySearchHeader = () => (
     </g>
   </svg>
 );
+
+export const QuickSortHeader = () => (
+  <svg viewBox="0 0 800 400" className="w-full h-auto">
+    <rect width="800" height="400" fill="#FFF7ED" />
+    <g transform="translate(50, 50)">
+      <rect width="700" height="300" fill="#FBBF24" rx="20" />
+      <text x="350" y="50" fontSize="40" fill="#7C2D12" textAnchor="middle">
+        Quick Sort Pizza Slicing
+      </text>
+      <circle
+        cx="350"
+        cy="200"
+        r="120"
+        fill="#F59E0B"
+        stroke="#7C2D12"
+        strokeWidth="4"
+      />
+      <path d="M350 80 L350 320" stroke="#7C2D12" strokeWidth="4" />
+      <path d="M210 200 L490 200" stroke="#7C2D12" strokeWidth="4" />
+      <path d="M280 95 L420 305" stroke="#7C2D12" strokeWidth="4" />
+      <path d="M280 305 L420 95" stroke="#7C2D12" strokeWidth="4" />
+    </g>
+  </svg>
+);
+
+export default {
+  MergeSortHeader,
+  BinarySearchHeader,
+  QuickSortHeader,
+};
