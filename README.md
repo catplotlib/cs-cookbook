@@ -72,11 +72,3 @@ To add a new CS concept recipe:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions or feedback, please open an issue on GitHub or contact the maintainer at [your-email@example.com](mailto:your-email@example.com).
